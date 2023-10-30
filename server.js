@@ -1,6 +1,5 @@
 const express = require('express');
 const { Product, Category } = require('./model/model');
-//const { getAllProducts, getProductById, addProduct, updateProduct, deleteProduct, deleteAllProducts, findProductsByName } = require('./controller/controller');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
